@@ -1,10 +1,18 @@
 import React from 'react';
-import { AppRegistry } from 'react-native';
+import { AppRegistry, View } from 'react-native';
 import Header from './src/components/header';
+import AlbumList from './src/components/AlbumList';
 
 const App = () => {
+  /*
+    for every component we create, we have to return a single
+    top-level JSX tag
+  */
   return (
-    <Header headerText={'Albums!'} />
+    <View>
+      <Header headerText={'Albums!'} />
+      <AlbumList />
+    </View>
   );
 };
 // for every react-native app we must register at least one component

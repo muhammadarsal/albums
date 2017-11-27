@@ -1,6 +1,10 @@
 import React from 'react';
 import { Text, View } from 'react-native';
 
+/*
+  Below is a functional component, the only rule is that
+  it must return some amount of JSX
+*/
 const Header = (props) => {
   const { textStyle, viewStyle } = styles;
 
