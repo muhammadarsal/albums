@@ -9,7 +9,7 @@ const App = () => {
     top-level JSX tag
   */
   return (
-    <View>
+    <View style={{ flex: 1 }}>
       <Header headerText={'Albums!'} />
       <AlbumList />
     </View>
